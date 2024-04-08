@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/card-white.css");
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	color: rgb(96, 108, 123);
+	margin: 0px;
+}
+
+body:h2 {
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	padding-top: 40px;
+	margin: 0 30px;
+
+}
+
+#histoire img {
+	padding-bottom: 40px;
+	padding-top: 70px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 40px;
+}
+.list-inline i {
+	font-size: 60px;
+	color:rgb(96, 108, 123);
+
+}
+.list-inline i:hover {
+	color:black;
+}
+
+.credits {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
